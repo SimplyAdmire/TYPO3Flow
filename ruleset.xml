@@ -62,4 +62,6 @@
 	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
 	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
 
+	<!-- CodeAnalysis -->
+	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
 </ruleset>
