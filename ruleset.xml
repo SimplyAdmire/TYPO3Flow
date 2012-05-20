@@ -10,7 +10,9 @@
 	<rule ref="TYPO3.PHP.ClosingPHPTag" />
 	<rule ref="Squiz.PHP.NonExecutableCode" />
 	<rule ref="Generic.PHP.DeprecatedFunctions" />
-	<rule ref="Squiz.PHP.Eval" />
+	<rule ref="Squiz.PHP.Eval">
+		<exclude-pattern>*/Tests/*</exclude-pattern>
+	</rule>
 	<rule ref="Squiz.PHP.GlobalKeyword" />
 	<rule ref="Generic.PHP.UpperCaseConstant" />
 
