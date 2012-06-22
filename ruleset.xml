@@ -56,6 +56,7 @@
 	<!-- Classes -->
 	<rule ref="../TYPO3/Sniffs/Classes/LowercaseClassKeywordsSniff.php" />
 	<rule ref="Squiz.Classes.SelfMemberReference" />
+	<rule ref="Generic.Classes.DuplicateClassName" />
 
 	<!-- Arrays -->
 	<rule ref="Squiz.Arrays.ArrayBracketSpacing" />
