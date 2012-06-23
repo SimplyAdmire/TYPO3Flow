@@ -66,4 +66,5 @@
 
 	<!-- CodeAnalysis -->
 	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
+	<rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier" />
 </ruleset>
