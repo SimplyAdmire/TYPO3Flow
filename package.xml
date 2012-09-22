@@ -20,11 +20,11 @@ must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
   <email>andygrunwald@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2012-09-21</date>
- <time>21:54:32</time>
+ <date>2012-09-22</date>
+ <time>19:04:40</time>
  <version>
-  <release>0.0.1</release>
-  <api>0.0.1</api>
+  <release>0.0.2</release>
+  <api>0.0.2</api>
  </version>
  <stability>
   <release>stable</release>
@@ -32,13 +32,12 @@ must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
  </stability>
  <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
  <notes>
-- Initial release
-- #40726: [FEATURE] Ignore doctrine migrations
+- #41260: [BUGFIX] Standards was installed in wrong dir
  </notes>
  <contents>
   <dir baseinstalldir="PHP/CodeSniffer/Standards/FLOW3" name="/">
-   <file name="README.rst" role="data" />
-   <file name="ruleset.xml" role="data" />
+   <file name="README.rst" role="php" />
+   <file name="ruleset.xml" role="php" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -57,12 +56,27 @@ must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
    <package>
     <name>PHPCS_TYPO3_SniffPool</name>
     <channel>pear.typo3.org</channel>
-    <min>0.0.4</min>
+    <min>0.0.5</min>
    </package>
   </required>
  </dependencies>
  <phprelease />
  <changelog>
+  <release>
+   <version>
+    <release>0.0.2</release>
+    <api>0.0.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-09-22</date>
+   <license uri="http://www.gnu.org/licenses/gpl.html">GPL</license>
+   <notes>
+- #41260: [BUGFIX] Standards was installed in wrong dir
+   </notes>
+  </release>
   <release>
    <version>
     <release>0.0.1</release>
