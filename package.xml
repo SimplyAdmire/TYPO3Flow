@@ -3,11 +3,11 @@
     http://pear.php.net/dtd/tasks-1.0.xsd
     http://pear.php.net/dtd/package-2.0
     http://pear.php.net/dtd/package-2.0.xsd">
- <name>PHPCS_FLOW3_Standard</name>
+ <name>PHPCS_TYPO3Flow_Standard</name>
  <channel>pear.typo3.org</channel>
- <summary>FLOW3 Coding Standard</summary>
- <description>This package contains a selection of sniffs which implements the Coding Guidelines for FLOW3. Additionally you
-must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
+ <summary>TYPO3 Flow Coding Standard</summary>
+ <description>This package contains a selection of sniffs which implements the Coding Guidelines for TYPO3 Flow which was former known as FLOW3. Additionally you
+must install the pear.typo3.org/PHPCS_TYPO3_SniffPool package.</description>
  <lead>
   <name>Stefano Kowalke</name>
   <user>sok</user>
@@ -35,7 +35,7 @@ must install the pear.typo3.org/PHPCS_TYPO3_Standard_Pool package.</description>
 - #41260: [BUGFIX] Standards was installed in wrong dir
  </notes>
  <contents>
-  <dir baseinstalldir="PHP/CodeSniffer/Standards/FLOW3" name="/">
+  <dir baseinstalldir="PHP/CodeSniffer/Standards/TYPO3Flow" name="/">
    <file name="README.rst" role="php" />
    <file name="ruleset.xml" role="php" />
   </dir> <!-- / -->
