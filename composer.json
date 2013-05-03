@@ -1,42 +1,36 @@
 {
-	"name": "typo3-qa/typo3flow",
+	"name": "typo3-ci/typo3flow",
 	"type": "phpcodesniffer-standard",
 	"description": "This package contains a selection of sniffs which implements the Coding Guidelines for TYPO3Flow which was former known as FLOW3.",
 	"homepage": "http://forge.typo3.org/projects/show/team-php_codesniffer",
-	"keywords": ["typo3","standard","guidelines","codesniffer"],
+	"keywords": ["typo3", "standards", "phpcs", "coding guidelines", "codesniffer", "quality assurance", "flow"],
 	"license": "GPL-2.0",
 	"authors": [
-		{
-			"name": "Andy Grundwald",
-			"email": "andy.grundwald@gmail.com",
-			"role": "lead"
-		},
 		{
 			"name": "Stefano Kowalke",
 			"email": "blueduck@gmx.net",
 			"role": "lead"
+		},
+		{
+			"name": "Andy Grundwald",
+			"email": "andy.grundwald@gmail.com",
+			"role": "lead"
 		}
 	],
 
-	"version": "dev-master",
-	
-	"repositories": [
-                {
-                        "type": "vcs",
-                        "url": "https://github.com/Konafets/installers.git"
-                }
-        ],
-
 	"require": {
 		"php": ">=5.2.1",
-		"squizlabs/php_codesniffer": "*",
-		"composer/installers": "dev-phpcsStandardInstaller"
+		"typo3-ci/typo3sniffpool": "dev-master"
+	},
+
+	"suggest": {
+		"typo3-ci/typo3cms": ">=0.0.5"
 	},
 
 	"support": {
 		"issues": "http://forge.typo3.org/projects/team-php_codesniffer/issues",
 		"wiki": "http://forge.typo3.org/projects/team-php_codesniffer/wiki",
-		"source": "https://github.com/typo3-ci/PHPCS_TYPO3Flow_Standard.git"
+		"source": "https://github.com/typo3-ci/TYPO3Flow.git"
 	}
 
 }
