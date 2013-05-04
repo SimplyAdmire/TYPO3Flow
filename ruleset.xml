@@ -36,7 +36,6 @@
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/OneClassPerFileSniff.php" />
 	<rule ref="../TYPO3SniffPool/Sniffs/Files/OneInterfacePerFileSniff.php" />
 	<rule ref="Generic.Files.LineEndings" />
-	<rule ref="../TYPO3SniffPool/Sniffs/Files/EncodingUtf8Sniff.php" />
 
 	<!--Formatting -->
 
