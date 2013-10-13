@@ -23,10 +23,6 @@
 		"typo3-ci/typo3sniffpool": ">=0.0.6"
 	},
 
-	"suggest": {
-		"typo3-ci/typo3cms": ">=0.0.6"
-	},
-
 	"support": {
 		"issues": "http://forge.typo3.org/projects/team-php_codesniffer/issues",
 		"wiki": "http://forge.typo3.org/projects/team-php_codesniffer/wiki",
